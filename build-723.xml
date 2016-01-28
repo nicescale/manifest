@@ -51,7 +51,7 @@
   <project groups="minilayout" name="coreos/updateservicectl" path="src/third_party/updateservicectl" revision="d957967d212df8c814323e9a672669cbc13f73de" upstream="refs/heads/master"/>
   <!-- following three repo use remote=private to performe ssh clone -->
   <project groups="minilayout" name="nicescale/docker" path="src/third_party/docker" remote="private" revision="csphere-1.9.1-ipvlan" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="nicescale/netplugin" path="src/third_party/netplugin" remote="private" revision="master" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="nicescale/netplugin" path="src/third_party/netplugin" remote="private" revision="2pool" upstream="refs/heads/master"/>
   <!-- <project groups="minilayout" name="nicescale/csphere" path="src/third_party/csphere" remote="private" revision="master" upstream="refs/heads/master"/> -->
   <project groups="minilayout" name="zhang0137/csphere" path="src/third_party/csphere" remote="private" revision="container-cfg-manager" upstream="refs/heads/master"/>
   <project groups="minilayout" name="zhang0137/costest" path="src/third_party/costest" revision="master" upstream="refs/heads/master"/>
