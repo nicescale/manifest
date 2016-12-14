@@ -20,7 +20,7 @@
   </project>
   <project groups="minilayout" name="coreos/coreos-buildbot" path="src/third_party/coreos-buildbot" revision="3e4b20f67839aa541839eca6b4b7274d5ad1932c" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/coreos-cloudinit" path="src/third_party/coreos-cloudinit" revision="41289286cab73a5726884f1c36379558460f1774" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="nicescale/coreos-overlay" path="src/third_party/coreos-overlay" revision="csphere-723.3.0" upstream="refs/heads/build-723"/>
+  <project groups="minilayout" name="nicescale/coreos-overlay" path="src/third_party/coreos-overlay" revision="release-1.5" upstream="refs/heads/build-723"/>
   <project groups="minilayout" name="coreos/coretest" path="src/third_party/coretest" revision="991faaf28eb21f185fed0708b526849a8bc128e6" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/dev-util" path="src/platform/dev" revision="d7493a208303deac9a80e22acc468b9773f4f7ee" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/efunctions" path="src/third_party/efunctions" revision="ecef964cb1eed5c8482ab4c75a23de35fd390584" upstream="refs/heads/master"/>
@@ -37,7 +37,7 @@
   <project groups="minilayout" name="coreos/nss-altfiles" path="src/third_party/nss-altfiles" revision="508d986e38c70bd0636740d287d2fe807822fb57" upstream="refs/heads/master"/>
   <project groups="minilayout" name="coreos/portage-stable" path="src/third_party/portage-stable" revision="8e6f18ef2c330f1c988f814c6e4f458a5bf868b4" upstream="refs/heads/build-723"/>
   <project groups="minilayout" name="coreos/rkt" path="src/third_party/rkt" revision="4dafc1ef5063a12ac63610734b4c6404219a3672" upstream="refs/heads/master"/>
-  <project groups="minilayout" name="nicescale/scripts" path="src/scripts" revision="csphere-723.3.0" upstream="refs/heads/master"/>
+  <project groups="minilayout" name="nicescale/scripts" path="src/scripts" revision="release-1.5" upstream="refs/heads/master"/>
   <project groups="minilayout" name="mountkin/go-bindata" path="src/third_party/go-bindata" revision="3e90fea08bf6644f483d50e967581e898f40009d" upstream="refs/heads/master"/>
   <project groups="minilayout" name="prometheus/prometheus" path="src/third_party/prometheus" revision="db4df06414c2c602bd60bf28f4ec0242d11949f3" upstream="refs/heads/master"/>
   <project groups="minilayout" name="zhang0137/skydns" path="src/third_party/skydns" revision="csphere-723.3.0" upstream="refs/heads/master"/>
@@ -53,9 +53,7 @@
   <project groups="minilayout" name="nicescale/docker" path="src/third_party/docker" remote="private" revision="master" upstream="refs/heads/master"/>
   <project groups="minilayout" name="nicescale/netplugin" path="src/third_party/netplugin" remote="private" revision="master" upstream="refs/heads/master"/>
 <project groups="minilayout" name="nicescale/csphere-logger" path="src/third_party/csphere-logger" remote="private" revision="master" upstream="refs/heads/master"/>
-<!-- <project groups="minilayout" name="nicescale/csphere" path="src/third_party/csphere" remote="private" revision="release-1.5" upstream="refs/heads/master"/> -->
-<!-- <project groups="minilayout" name="zhang0137/csphere" path="src/third_party/csphere" remote="private" revision="cloudminds" upstream="refs/heads/master"/> -->
-<project groups="minilayout" name="nicescale/csphere" path="src/third_party/csphere" remote="private" revision="master" upstream="refs/heads/master"/>
+<project groups="minilayout" name="nicescale/csphere" path="src/third_party/csphere" remote="private" revision="release-1.5" upstream="refs/heads/master"/>
   <project groups="minilayout" name="zhang0137/costest" path="src/third_party/costest" revision="master" upstream="refs/heads/master"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="chromiumos/repohooks"/>
